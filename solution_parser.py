@@ -1,6 +1,7 @@
 import re
 from collections import Counter
 from utils import sort_thoughts_by_length
+from example import Example
 
 
 class SolutionParser:
