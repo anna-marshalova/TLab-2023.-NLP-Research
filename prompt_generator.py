@@ -19,7 +19,7 @@ class PromptGenerator:
         return prefixes, prefix_indices
 
     def chose_random_prefixes(self):
-        indices = list(range(0, self.start)) + list(range(self.end, len(examples)))
+        indices = list(range(0, self.start)) + list(range(self.end, len(self.examples)))
         return random.sample(indices, self.num_problems)
 
     def generate_prompt(self, question):
