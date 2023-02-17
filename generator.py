@@ -14,13 +14,14 @@ class Generator:
         else:
             self.answer_inputs = None
 
-    def generate(self, prompt, answer, num_iter, do_sample, temperature):
+    def generate(self, prompt, answer, num_iter, do_sample, **kwargs):
         solutions = []
         inputs = self.tokenizer(prompt, padding=True, return_tensors='pt').to(self.device)
         for i in tqdm(range(num_iter), leave=False):
-            output = self.model.generate(inputs['input_ids'], do_sample=do_sample, temperature=temperature,
+            output = self.model.generate(inputs['input_ids'],
                                          max_new_tokens=50,
-                                         repetition_penalty=10, stop_token_ids=self.stop_token_ids)
+                                         repetition_penalty=10, stop_token_ids=self.stop_token_ids,
+                                         do_sample=do_sample, **kwargs)
             if self.answer_inputs:
                 # Добавляем фразу к тексту и генерируем еще 1 токен
                 output = torch.cat((output, self.answer_inputs['input_ids']), dim=1)
@@ -30,8 +31,8 @@ class Generator:
             print(f'{solution}\nCorrect answer: {answer}\n')
         return solutions
 
-    def generate_batch(self, prompts, answers, num_iter=1, do_sample=False, temperature=1):
+    def generate_batch(self, prompts, answers, num_iter=1, do_sample=False, temperature=1, **kwargs):
         solutions = []
         for prompt, answer in zip(tqdm(prompts), answers):
-            solutions.append(self.generate(prompt, answer, num_iter, do_sample=do_sample, temperature=temperature))
+            solutions.append(self.generate(prompt, answer, num_iter, do_sample=do_sample, **kwargs))
         return solutions
