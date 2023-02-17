@@ -30,8 +30,8 @@ class Generator:
             print(f'{solution}\nCorrect answer: {answer}\n')
         return solutions
 
-    def generate_batch(self, prompts, answers, num_iter=1):
+    def generate_batch(self, prompts, answers, num_iter=1, do_sample=False, temperature=1):
         solutions = []
         for prompt, answer in zip(tqdm(prompts), answers):
-            solutions.append(self.generate(prompt, answer, num_iter, do_sample=True, temperature=1))
+            solutions.append(self.generate(prompt, answer, num_iter, do_sample=do_sample, temperature=temperature))
         return solutions
