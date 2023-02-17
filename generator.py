@@ -1,5 +1,5 @@
-from tqdm.notebook import tqdm
 import torch
+from tqdm.notebook import tqdm
 
 
 def generate(prompt, answer, model, tokenizer, num_iter=1, do_sample=True, add_phrase=None, temperature=1,
