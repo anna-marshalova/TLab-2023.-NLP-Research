@@ -22,7 +22,7 @@ def load_experiment_results(model_name, suffix=''):
     return solutions
 
 
-def save_experiment(solutions, model_name, suffix=''):
+def save_experiment_results(solutions, model_name, suffix=''):
     experiment_name = f'{model_name.split("/")[-1]}_{suffix}'
     path = os.path.join('results', f'{experiment_name}.json')
     with open(path, 'w') as js_file:
