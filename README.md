@@ -31,6 +31,6 @@
 
 ### Ансамблирование:
 - [Self-Consistency](https://arxiv.org/abs/2203.11171)
-- [Complexity based] (https://arxiv.org/abs/2210.00720)
+- [Complexity based](https://arxiv.org/abs/2210.00720)
 - Ансамблирование тектов, сгенерированных по разным промптам
 
