@@ -1,4 +1,4 @@
-# 🧮Chain-of-Thought Prompt Engineering for Math Reasoning на датасете [GSM8K](https://github.com/openai/grade-school-math)
+# 🧮⛓🧠Chain-of-Thought Prompt Engineering for Math Reasoning на датасете [GSM8K](https://github.com/openai/grade-school-math)
 
 ## 📂Файлы и папки
 - `TLab 2023. NLP Research.ipynb`
