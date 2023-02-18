@@ -21,13 +21,15 @@ class Generator:
             self.answer_inputs = None
 
     def chose_prefixes(self, num_problems):
-        if not self.prefixes:
-            if not self.prefix_indices:
-                prefix_indices = random.sample(range(len(self.examples)), num_problems)
+        if self.prefixes:
+            return self.prefixes
+        else:
+            if self.prefix_indices:
+              prefix_indices = self.prefix_indices
             else:
-                prefixes = self.prefixes
-            prefixes = [str(self.examples.pop(prefix_index)) for prefix_index in prefix_indices]
-        return prefixes
+              prefix_indices = random.sample(range(len(self.examples)), num_problems)
+            return [str(self.examples[prefix_index]) for prefix_index in prefix_indices]
+
 
     def generate_prompt(self, question, prefix):
         return f'{prefix}\nQ: {question} \nA:'

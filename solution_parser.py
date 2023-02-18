@@ -68,3 +68,7 @@ class SolutionParser:
             print(pred_solution.answer, answer)
         if pred_solution.answer == answer:
             print(pred_solution)
+
+    def print_solutions(self, solutions):
+        for solution in solutions:
+            print(solution)
