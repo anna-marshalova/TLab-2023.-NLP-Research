@@ -1,3 +1,4 @@
+import random
 import torch
 from tqdm.notebook import tqdm, trange
 
@@ -53,7 +54,7 @@ class Generator:
         return solutions
 
     def generate_batch(self, questions, answers, ensemble_size=1, ensembling='sampling', num_problems=1,
-                       do_sample=False, temperature=1, **kwargs):
+                       do_sample=False,  **kwargs):
         solutions = []
         if ensemble_size > 1 and ensembling == 'prompt':
             prefixes = self.chose_prefixes(ensemble_size)
