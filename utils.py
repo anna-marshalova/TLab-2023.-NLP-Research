@@ -14,7 +14,7 @@ def sort_thoughts_by_length(examples):
     thought_lengths = [(idx, example_length(example)) for idx, example in enumerate(examples)]
     return sorted(thought_lengths, key=lambda x: x[1], reverse=True)
 
-def load_experiment_json(model_name, suffix=''):
+def load_experiment_results(model_name, suffix=''):
     experiment_name = f'{model_name.split("/")[-1]}_{suffix}'
     path = os.path.join('results', f'{experiment_name}.json')
     with open(path) as js_file:
@@ -22,7 +22,7 @@ def load_experiment_json(model_name, suffix=''):
     return solutions
 
 
-def save_experiment_json(solutions, model_name, suffix=''):
+def save_experiment_results(solutions, model_name, suffix=''):
     experiment_name = f'{model_name.split("/")[-1]}_{suffix}'
     path = os.path.join('results', f'{experiment_name}.json')
     with open(path, 'w') as js_file:
