@@ -27,19 +27,19 @@ class SolutionParser:
             return possible_answers[-1]
         return None
 
-    def parse_solution(self, output):
-        solution = output.split(self.EOS)[1]
+    def parse_solution(self, output, num_problems):
+        solution = output.split(self.EOS)[num_problems]
         solution = solution.split('Q:')[1].split('A:')
         question = solution[0]
         thought = solution[-1]
         answer = self.extract_answer(thought)
         return {'question': question, 'answer': thought, 'num_answer': answer}
 
-    def parse_solutions(self, solutions):
+    def parse_solutions(self, solutions, num_problems=1):
         if self.consistency:
-            return [[Example(self.parse_solution(sample)) for sample in samples] for samples in solutions]
+            return [[Example(self.parse_solution(sample, num_problems)) for sample in samples] for samples in solutions]
         else:
-            return [Example(self.parse_solution(sample)) for samples in solutions for sample in samples]
+            return [Example(self.parse_solution(sample, num_problems)) for samples in solutions for sample in samples]
 
     def choose_answers(self, solutions):
         parsed_solutions = self.parse_solutions(solutions)
@@ -70,5 +70,5 @@ class SolutionParser:
             print(pred_solution)
 
     def print_solutions(self, solutions):
-        for solution in solutions:
-            print(solution)
+        for idx, solution in enumerate(solutions):
+            print(f'{idx+1}:{solution}')

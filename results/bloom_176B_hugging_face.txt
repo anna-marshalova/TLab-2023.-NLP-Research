@@ -1,0 +1,200 @@
+EXPERIMENT 1.(GREEDY)
+Q: Peter needs to buy birdseed to last a week. He knows that each parakeet eats 2 grams a day. His parrots eat 14 grams a day. His finches eat half of what a parakeet eats. If he has 3 parakeets, 2 parrots and 4 finches, how many grams of birdseed does he need to buy?
+A: His parakeets eat 6 grams a day, because three parakeets times two grams each equals 6 grams. His parrots will eat 28 grams a day because two parrots times 14 grams equals 28 grams. Each finch will eat 1 gram a day, because they eat half of what a parakeet does and 1/2 of 2 equals one. His finches will eat 4 grams a day because four finches times 1 gram equals 4 grams. His birds eat 38 grams a day because 6 plus 28 plus 4 equals 38 Each week has 7 days Therefore, in a week he will need 266 grams because 7 times 38 equals 266. 
+The answer is 266.
+
+
+Q: Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May? 
+A:Natalia sold 48 clips in April and 24 clips in May. She sold a total of 72 clips in April and May.
+
+Q: A man has a garden with a rectangular shape. The length of the garden is twice as long as the width. The man wants to divide the garden into two equal parts. How many meters of fences does he need to buy?
+A: The length of the garden is twice as long as the width. The length of the garden is twice as long as the width. The length of the garden is twice as long as the width. The length of the garden is twice as long as the width. The length of the garden is twice as long as the width. The length of the garden is twice as long as the width. The length of the garden is twice
+
+EXPERIMENT 2.(SAMPLING)
+Q: Peter needs to buy birdseed to last a week. He knows that each parakeet eats 2 grams a day. His parrots eat 14 grams a day. His finches eat half of what a parakeet eats. If he has 3 parakeets, 2 parrots and 4 finches, how many grams of birdseed does he need to buy?
+A: His parakeets eat 6 grams a day, because three parakeets times two grams each equals 6 grams. His parrots will eat 28 grams a day because two parrots times 14 grams equals 28 grams. Each finch will eat 1 gram a day, because they eat half of what a parakeet does and 1/2 of 2 equals one. His finches will eat 4 grams a day because four finches times 1 gram equals 4 grams. His birds eat 38 grams a day because 6 plus 28 plus 4 equals 38 Each week has 7 days Therefore, in a week he will need 266 grams because 7 times 38 equals 266. 
+The answer is 266.
+
+
+Q: Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May? 
+A:Let's say A stands for April, B stands for May, S stands for sold, and P stands for sold in plural. Natalia sold S(A) in April and S(B) in May. S(A) was 48 and S(B) was 24. Natalia sold S(A) + S(B), so we have: 48 + 24, or 72. I know that there is a way to use 72 to simplify 48 + 24. I am not sure how. Help is needed with this.
+
+EXPERIMENT 3.(GREEDY)
+Q: Gordon owns 3 restaurants, his first restaurant serves 20 meals, his second restaurant serves 40 meals, and his third restaurant serves 50 meals per day. How many meals do his 3 restaurants serve per week?
+A: Gordon serves 20 x 7 = 140 meals in his first restaurant per week. He serves 40 x 7= 280 meals in his second restaurant per week. At the third restaurant, he serves 50 x 7 = 350 meals per week. Therefore, he serves 140 + 280 + 350 = 770 meals in total per week. 
+The answer is 770.
+
+
+Q: Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May? 
+A: Natalia sold 48 x 2 = 96 clips in April. She sold 48 x 2 = 96 clips in May. Therefore, she sold 96 + 96 = 192 clips altogether in April and May.
+
+EXPERIMENT 4.(SAMPLING)
+Q: Gordon owns 3 restaurants, his first restaurant serves 20 meals, his second restaurant serves 40 meals, and his third restaurant serves 50 meals per day. How many meals do his 3 restaurants serve per week?
+A: Gordon serves 20 x 7 = 140 meals in his first restaurant per week. He serves 40 x 7= 280 meals in his second restaurant per week. At the third restaurant, he serves 50 x 7 = 350 meals per week. Therefore, he serves 140 + 280 + 350 = 770 meals in total per week. 
+The answer is 770.
+
+
+Q: Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May? 
+A: Natalia sold 24 clips to her friends in total in April and May.
+The answer is 24.
+</div>
+
+</body>
+</html>
+
+A:
+
+You have to get the screenheight in px and add 100px to it, otherwise the height will be 0. So I have added 100px to it. Then we can use this height to calculate how much should the svg resize so we can calculate the new view
+
+EXPERIMENT 5.(GREEDY)
+Q: Peter needs to buy birdseed to last a week. He knows that each parakeet eats 2 grams a day. His parrots eat 14 grams a day. His finches eat half of what a parakeet eats. If he has 3 parakeets, 2 parrots and 4 finches, how many grams of birdseed does he need to buy?
+A: His parakeets eat 6 grams a day, because three parakeets times two grams each equals 6 grams. His parrots will eat 28 grams a day because two parrots times 14 grams equals 28 grams. Each finch will eat 1 gram a day, because they eat half of what a parakeet does and 1/2 of 2 equals one. His finches will eat 4 grams a day because four finches times 1 gram equals 4 grams. His birds eat 38 grams a day because 6 plus 28 plus 4 equals 38 Each week has 7 days Therefore, in a week he will need 266 grams because 7 times 38 equals 266. 
+The answer is 266.
+
+
+Q: Gordon owns 3 restaurants, his first restaurant serves 20 meals, his second restaurant serves 40 meals, and his third restaurant serves 50 meals per day. How many meals do his 3 restaurants serve per week?
+A: Gordon serves 20 x 7 = 140 meals in his first restaurant per week. He serves 40 x 7= 280 meals in his second restaurant per week. At the third restaurant, he serves 50 x 7 = 350 meals per week. Therefore, he serves 140 + 280 + 350 = 770 meals in total per week. 
+The answer is 770.
+
+
+Q: Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May? 
+A: 
+atalia sold 48 x 2 = 96 clips in April. She sold half of 96 clips in May. Half of 96 clips is 48 clips. Therefore, Natalia sold 48 + 48 = 96 clips in April and May. 
+The answer is 96.
+
+
+Q: A man has a total of 12 apples. He gives 3 apples to his son, and then gives half of the remaining apples to his daughter. How many apples does he have left?
+A: He has 12 apples. He gives 3 apples to his son. He gives half of the remaining apples to his daughter. Half of 12 apples is 6 apples. Therefore, he has 6 apples left. 
+The answer is 6.
+
+EXPERIMENT 6.(SAMPLING)
+Q: Peter needs to buy birdseed to last a week. He knows that each parakeet eats 2 grams a day. His parrots eat 14 grams a day. His finches eat half of what a parakeet eats. If he has 3 parakeets, 2 parrots and 4 finches, how many grams of birdseed does he need to buy?
+A: His parakeets eat 6 grams a day, because three parakeets times two grams each equals 6 grams. His parrots will eat 28 grams a day because two parrots times 14 grams equals 28 grams. Each finch will eat 1 gram a day, because they eat half of what a parakeet does and 1/2 of 2 equals one. His finches will eat 4 grams a day because four finches times 1 gram equals 4 grams. His birds eat 38 grams a day because 6 plus 28 plus 4 equals 38 Each week has 7 days Therefore, in a week he will need 266 grams because 7 times 38 equals 266. 
+The answer is 266.
+
+
+Q: Gordon owns 3 restaurants, his first restaurant serves 20 meals, his second restaurant serves 40 meals, and his third restaurant serves 50 meals per day. How many meals do his 3 restaurants serve per week?
+A: Gordon serves 20 x 7 = 140 meals in his first restaurant per week. He serves 40 x 7= 280 meals in his second restaurant per week. At the third restaurant, he serves 50 x 7 = 350 meals per week. Therefore, he serves 140 + 280 + 350 = 770 meals in total per week. 
+The answer is 770.
+
+
+Q: Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May? 
+A: In April she sold 48 x 2 = 96 clips. In May she sold (48 ÷ 2) x 2 = 48 clips. Therefore, she sold 96 + 48 = 144 clips altogether. The answer is 144. 
+
+EXPERIMENT 7.(GREEDY)
+Q: Peter needs to buy birdseed to last a week. He knows that each parakeet eats 2 grams a day. His parrots eat 14 grams a day. His finches eat half of what a parakeet eats. If he has 3 parakeets, 2 parrots and 4 finches, how many grams of birdseed does he need to buy?
+A: His parakeets eat 6 grams a day, because three parakeets times two grams each equals 6 grams. His parrots will eat 28 grams a day because two parrots times 14 grams equals 28 grams. Each finch will eat 1 gram a day, because they eat half of what a parakeet does and 1/2 of 2 equals one. His finches will eat 4 grams a day because four finches times 1 gram equals 4 grams. His birds eat 38 grams a day because 6 plus 28 plus 4 equals 38 Each week has 7 days Therefore, in a week he will need 266 grams because 7 times 38 equals 266. 
+The answer is 266.
+
+
+Q: Weng earns $12 an hour for babysitting. Yesterday, she just did 50 minutes of babysitting. How much did she earn? 
+A: Weng earns $12 an hour for babysitting. She just did 50 minutes of babysitting. Therefore, she earned $12 times 50 minutes, which equals $600. The answer is $600.
+
+EXPERIMENT 8.(SAMPLING)
+Q: Peter needs to buy birdseed to last a week. He knows that each parakeet eats 2 grams a day. His parrots eat 14 grams a day. His finches eat half of what a parakeet eats. If he has 3 parakeets, 2 parrots and 4 finches, how many grams of birdseed does he need to buy?
+A: His parakeets eat 6 grams a day, because three parakeets times two grams each equals 6 grams. His parrots will eat 28 grams a day because two parrots times 14 grams equals 28 grams. Each finch will eat 1 gram a day, because they eat half of what a parakeet does and 1/2 of 2 equals one. His finches will eat 4 grams a day because four finches times 1 gram equals 4 grams. His birds eat 38 grams a day because 6 plus 28 plus 4 equals 38 Each week has 7 days Therefore, in a week he will need 266 grams because 7 times 38 equals 266. 
+The answer is 266.
+
+
+Q: Weng earns $12 an hour for babysitting. Yesterday, she just did 50 minutes of babysitting. How much did she earn? 
+A: She earned 6 dollars because 12 x 50 minutes = 600 minutes and 600 divided by 60 = 10 hours. Therefore she earned 10 hours at $6 an hour. Therefore, she earned $6 dollars.
+
+EXPERIMENT 9.(GREEDY)
+Q: Gordon owns 3 restaurants, his first restaurant serves 20 meals, his second restaurant serves 40 meals, and his third restaurant serves 50 meals per day. How many meals do his 3 restaurants serve per week?
+A: Gordon serves 20 x 7 = 140 meals in his first restaurant per week. He serves 40 x 7= 280 meals in his second restaurant per week. At the third restaurant, he serves 50 x 7 = 350 meals per week. Therefore, he serves 140 + 280 + 350 = 770 meals in total per week. 
+The answer is 770.
+
+
+Q: Weng earns $12 an hour for babysitting. Yesterday, she just did 50 minutes of babysitting. How much did she earn? 
+A: Weng earns $12 x 50 = $600 for babysitting. She earns $600 for babysitting for 50 minutes. Therefore, she earns $600 for babysitting for 50 minutes for 1 hour. Thus, she earns $600 x 1 = $600 for babysitting for 1 hour.
+The answer is $600. 
+
+EXPERIMENT 10.(SAMPLING)
+Q: Gordon owns 3 restaurants, his first restaurant serves 20 meals, his second restaurant serves 40 meals, and his third restaurant serves 50 meals per day. How many meals do his 3 restaurants serve per week?
+A: Gordon serves 20 x 7 = 140 meals in his first restaurant per week. He serves 40 x 7= 280 meals in his second restaurant per week. At the third restaurant, he serves 50 x 7 = 350 meals per week. Therefore, he serves 140 + 280 + 350 = 770 meals in total per week. 
+The answer is 770.
+
+
+Q: Weng earns $12 an hour for babysitting. Yesterday, she just did 50 minutes of babysitting. How much did she earn? 
+A: She just earned 50 x 12 = $600. In another word, $600/50 = 12. If the babysitting is not done regularly, there is no way to predict how much she will earn next time. For instance, she may earn more or less than $600 depending on how much time she babysits next time.
+
+EXPERIMENT 11.(GREEDY)
+Q: Peter needs to buy birdseed to last a week. He knows that each parakeet eats 2 grams a day. His parrots eat 14 grams a day. His finches eat half of what a parakeet eats. If he has 3 parakeets, 2 parrots and 4 finches, how many grams of birdseed does he need to buy?
+A: His parakeets eat 6 grams a day, because three parakeets times two grams each equals 6 grams. His parrots will eat 28 grams a day because two parrots times 14 grams equals 28 grams. Each finch will eat 1 gram a day, because they eat half of what a parakeet does and 1/2 of 2 equals one. His finches will eat 4 grams a day because four finches times 1 gram equals 4 grams. His birds eat 38 grams a day because 6 plus 28 plus 4 equals 38 Each week has 7 days Therefore, in a week he will need 266 grams because 7 times 38 equals 266. 
+The answer is 266.
+Q: Gordon owns 3 restaurants, his first restaurant serves 20 meals, his second restaurant serves 40 meals, and his third restaurant serves 50 meals per day. How many meals do his 3 restaurants serve per week?
+A: Gordon serves 20 x 7 = 140 meals in his first restaurant per week. He serves 40 x 7= 280 meals in his second restaurant per week. At the third restaurant, he serves 50 x 7 = 350 meals per week. Therefore, he serves 140 + 280 + 350 = 770 meals in total per week. 
+The answer is 770.
+
+
+Q: Weng earns $12 an hour for babysitting. Yesterday, she just did 50 minutes of babysitting. How much did she earn? 
+A: Weng earns $12 an hour for babysitting. She earns $12 x 50 minutes = $600. She earns $600 for babysitting. 
+The answer is $600.
+
+EXPERIMENT 12.(SAMPLING)
+Q: Peter needs to buy birdseed to last a week. He knows that each parakeet eats 2 grams a day. His parrots eat 14 grams a day. His finches eat half of what a parakeet eats. If he has 3 parakeets, 2 parrots and 4 finches, how many grams of birdseed does he need to buy?
+A: His parakeets eat 6 grams a day, because three parakeets times two grams each equals 6 grams. His parrots will eat 28 grams a day because two parrots times 14 grams equals 28 grams. Each finch will eat 1 gram a day, because they eat half of what a parakeet does and 1/2 of 2 equals one. His finches will eat 4 grams a day because four finches times 1 gram equals 4 grams. His birds eat 38 grams a day because 6 plus 28 plus 4 equals 38 Each week has 7 days Therefore, in a week he will need 266 grams because 7 times 38 equals 266. 
+The answer is 266.
+Q: Gordon owns 3 restaurants, his first restaurant serves 20 meals, his second restaurant serves 40 meals, and his third restaurant serves 50 meals per day. How many meals do his 3 restaurants serve per week?
+A: Gordon serves 20 x 7 = 140 meals in his first restaurant per week. He serves 40 x 7= 280 meals in his second restaurant per week. At the third restaurant, he serves 50 x 7 = 350 meals per week. Therefore, he serves 140 + 280 + 350 = 770 meals in total per week. 
+The answer is 770.
+
+
+Q: Weng earns $12 an hour for babysitting. Yesterday, she just did 50 minutes of babysitting. How much did she earn? 
+A: Weng earns $12 an hour. 
+Each hour has 60 minutes. 
+50 minutes / 60 minutes = 0.83 hour(s). 
+Therefore, Weng earns ($12 x 0.83) = $10.36. 
+Therefore, Weng earns $10.36. 
+The answer is $10.36.
+
+Q: Leah just bought a book and a pony at the fair. The pony cost $80, and the book cost $40. How much did she spend?
+A: The pony cost $80. 
+The book cost $40. Therefore, Leah spent $90. 
+The answer is $90.
+
+EXPERIMENT 13.(GREEDY)
+Q: Angelo and Melanie want to plan how many hours over the next week they should study together for their test next week. They have 2 chapters of their textbook to study and 4 worksheets to memorize. They figure out that they should dedicate 3 hours to each chapter of their textbook and 1.5 hours for each worksheet. If they plan to study no more than 4 hours each day, how many days should they plan to study total over the next week if they take a 10-minute break every hour, include 3 10-minute snack breaks each day, and 30 minutes for lunch each day?
+A: Angelo and Melanie think they should dedicate 3 hours to each of the 2 chapters, 3 hours x 2 chapters = 6 hours total. For the worksheets they plan to dedicate 1.5 hours for each worksheet, 1.5 hours x 4 worksheets = 6 hours total. Angelo and Melanie need to start with planning 12 hours to study, at 4 hours a day, 12 / 4 = 3 days. However, they need to include time for breaks and lunch. Every hour they want to include a 10-minute break, so 12 total hours x 10 minutes = 120 extra minutes for breaks. They also want to include 3 10-minute snack breaks, 3 x 10 minutes = 30 minutes. And they want to include 30 minutes for lunch each day, so 120 minutes for breaks + 30 minutes for snack breaks + 30 minutes for lunch = 180 minutes, or 180 / 60 minutes per hour = 3 extra hours. So Angelo and Melanie want to plan 12 hours to study + 3 hours of breaks = 15 hours total. They want to study no more than 4 hours each day, 15 hours / 4 hours each day = 3.75 They will need to plan to study 4 days to allow for all the time they need. 
+The answer is 4
+
+
+Q:  Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May?
+A: Natalia sold 48 clips in April and then she sold half as many clips in May, so 48 clips in April + half as many clips in May = 48 + 24 = 72 clips. The answer is 72
+
+EXPERIMENT 14.(SAMPLING)
+Q: Angelo and Melanie want to plan how many hours over the next week they should study together for their test next week. They have 2 chapters of their textbook to study and 4 worksheets to memorize. They figure out that they should dedicate 3 hours to each chapter of their textbook and 1.5 hours for each worksheet. If they plan to study no more than 4 hours each day, how many days should they plan to study total over the next week if they take a 10-minute break every hour, include 3 10-minute snack breaks each day, and 30 minutes for lunch each day?
+A: Angelo and Melanie think they should dedicate 3 hours to each of the 2 chapters, 3 hours x 2 chapters = 6 hours total. For the worksheets they plan to dedicate 1.5 hours for each worksheet, 1.5 hours x 4 worksheets = 6 hours total. Angelo and Melanie need to start with planning 12 hours to study, at 4 hours a day, 12 / 4 = 3 days. However, they need to include time for breaks and lunch. Every hour they want to include a 10-minute break, so 12 total hours x 10 minutes = 120 extra minutes for breaks. They also want to include 3 10-minute snack breaks, 3 x 10 minutes = 30 minutes. And they want to include 30 minutes for lunch each day, so 120 minutes for breaks + 30 minutes for snack breaks + 30 minutes for lunch = 180 minutes, or 180 / 60 minutes per hour = 3 extra hours. So Angelo and Melanie want to plan 12 hours to study + 3 hours of breaks = 15 hours total. They want to study no more than 4 hours each day, 15 hours / 4 hours each day = 3.75 They will need to plan to study 4 days to allow for all the time they need. 
+The answer is 4
+
+
+Q:  Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May?
+A: Natalia sold 48 x ( 2 clips/friends) = 96 clips in April. In May she sold ( half as many) x ( 2 clips/friends) = 48 clips. Natalia sold 96 clips in April and 48 clips in May, so 96 + 48 = 144 clips total. 
+The answer is 144 clips total.
+ 
+My code works great for Question 1, but is not working for Question 2. I have tried the.replace() function as mentioned in another thread, but that is not working. Can anyone help me solve my problem and allow the code to work for Question 2, too?  
+
+<script>
+var y;
+
+function showAnswer(){
+var x = document.getElementById
+
+EXPERIMENT 15.(GREEDY)
+Q: Angelo and Melanie want to plan how many hours over the next week they should study together for their test next week. They have 2 chapters of their textbook to study and 4 worksheets to memorize. They figure out that they should dedicate 3 hours to each chapter of their textbook and 1.5 hours for each worksheet. If they plan to study no more than 4 hours each day, how many days should they plan to study total over the next week if they take a 10-minute break every hour, include 3 10-minute snack breaks each day, and 30 minutes for lunch each day?
+A: Angelo and Melanie think they should dedicate 3 hours to each of the 2 chapters, 3 hours x 2 chapters = 6 hours total. For the worksheets they plan to dedicate 1.5 hours for each worksheet, 1.5 hours x 4 worksheets = 6 hours total. Angelo and Melanie need to start with planning 12 hours to study, at 4 hours a day, 12 / 4 = 3 days. However, they need to include time for breaks and lunch. Every hour they want to include a 10-minute break, so 12 total hours x 10 minutes = 120 extra minutes for breaks. They also want to include 3 10-minute snack breaks, 3 x 10 minutes = 30 minutes. And they want to include 30 minutes for lunch each day, so 120 minutes for breaks + 30 minutes for snack breaks + 30 minutes for lunch = 180 minutes, or 180 / 60 minutes per hour = 3 extra hours. So Angelo and Melanie want to plan 12 hours to study + 3 hours of breaks = 15 hours total. They want to study no more than 4 hours each day, 15 hours / 4 hours each day = 3.75 They will need to plan to study 4 days to allow for all the time they need. 
+The answer is 4
+
+
+Q: Weng earns $12 an hour for babysitting. Yesterday, she just did 50 minutes of babysitting. How much did she earn? 
+A: Weng earns $12 an hour for babysitting. She just did 50 minutes of babysitting. 50 minutes / 60 minutes per hour = 0.83 hours. Weng earned $12 x 0.83 hours = $9.36. The answer is $9.36
+
+EXPERIMENT 16.(SAMPLING)
+Q: Angelo and Melanie want to plan how many hours over the next week they should study together for their test next week. They have 2 chapters of their textbook to study and 4 worksheets to memorize. They figure out that they should dedicate 3 hours to each chapter of their textbook and 1.5 hours for each worksheet. If they plan to study no more than 4 hours each day, how many days should they plan to study total over the next week if they take a 10-minute break every hour, include 3 10-minute snack breaks each day, and 30 minutes for lunch each day?
+A: Angelo and Melanie think they should dedicate 3 hours to each of the 2 chapters, 3 hours x 2 chapters = 6 hours total. For the worksheets they plan to dedicate 1.5 hours for each worksheet, 1.5 hours x 4 worksheets = 6 hours total. Angelo and Melanie need to start with planning 12 hours to study, at 4 hours a day, 12 / 4 = 3 days. However, they need to include time for breaks and lunch. Every hour they want to include a 10-minute break, so 12 total hours x 10 minutes = 120 extra minutes for breaks. They also want to include 3 10-minute snack breaks, 3 x 10 minutes = 30 minutes. And they want to include 30 minutes for lunch each day, so 120 minutes for breaks + 30 minutes for snack breaks + 30 minutes for lunch = 180 minutes, or 180 / 60 minutes per hour = 3 extra hours. So Angelo and Melanie want to plan 12 hours to study + 3 hours of breaks = 15 hours total. They want to study no more than 4 hours each day, 15 hours / 4 hours each day = 3.75 They will need to plan to study 4 days to allow for all the time they need. 
+The answer is 4
+
+
+Q: Weng earns $12 an hour for babysitting. Yesterday, she just did 50 minutes of babysitting. How much did she earn? 
+A: (12 - 50) * 50 = 20
+A: Weng earns 12 - $50 per hour of babysitting, so Weng earns $12 - $50 = $12 - $500 = -$450 per hour of babysitting. She babysat 50 minutes yesterday, so she earns (12 - 50) * 50 = 20. 
