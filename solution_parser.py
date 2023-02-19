@@ -115,4 +115,4 @@ class SolutionParser:
         :return:
         """
         for idx, solution in enumerate(solutions):
-            print(f'{idx + 1}:{solution}')
+            print(f'{idx + 1}:{str(solution)}')
